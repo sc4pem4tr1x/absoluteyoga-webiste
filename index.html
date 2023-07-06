@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="A growing collection of ready to use components for the CSS framework Bootstrap 5"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png" />
+    <meta name="author" content="Holger Koenemann" />
+    <meta name="generator" content="Eleventy v2.0.0" />
+    <meta name="HandheldFriendly" content="true" />
+    <title>OMYogaHub - Home</title>
+    <link rel="stylesheet" href="css/theme.min.css" />
+
+    <style>
+      .striked {
+        text-decoration: line-through;
+      }
+
+      .credit-card-icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .credit-card-icons li {
+        margin: 0 10px;
+      }
+
+      @media (max-width: 576px) {
+        .credit-card-icons {
+          flex-wrap: wrap;
+        }
+
+        .credit-card-icons li {
+          margin-bottom: 10px;
+        }
+      }
+
+      /* inter-300 - latin */
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: local(""), url("./fonts/inter-v12-latin-300.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/inter-v12-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: local(""), url("./fonts/inter-v12-latin-500.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/inter-v12-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local(""), url("./fonts/inter-v12-latin-700.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+    </style>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navScroll">
+    <nav
+      id="navScroll"
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      tabindex="0"
+    >
+      <div class="container">
+        <a class="navbar-brand pe-4 fs-4" href="/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-layers-half"
+            viewbox="0 0 16 16"
+          >
+            <path
+              d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"
+            />
+          </svg>
+          <span class="ms-1 fw-bolder">OMYogaHub</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#services"
+                aria-label="Brings you to the frontpage"
+              >
+                The Book
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus"> Fun Fact </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#numbers"> Why is it good </a>
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workwithus"> Shop </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"> Testimonials </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="w-100 overflow-hidden bg-gray-100" id="top">
+        <div class="container position-relative">
+          <div
+            class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover"
+            data-aos="fade-left"
+            style="background-image: url(img/webp/hero-bg.jpg)"
+          ></div>
+          <div class="row">
+            <div
+              class="col-lg-7 py-vh-6 position-relative"
+              data-aos="fade-right"
+            >
+              <h1 class="display-1 fw-bold mt-5">
+                Be Energized And Healthy With Yoga
+              </h1>
+              <p class="lead">
+                Many don't even realize how big of an improvement can yoga be in
+                your daily life. Start now and experience the change everybody's
+                talking about yourself!
+              </p>
+              <a
+                href="#services"
+                class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-vh-5 w-100 overflow-hidden" id="services">
+        <div class="container">
+          <div class="row d-flex justify-content-end">
+            <div class="col-lg-8" data-aos="fade-down">
+              <h2 class="display-6">
+                There are three really good reasons why you should start doing
+                yoga. There are much more than three, but we can't fit them all
+                in here.
+              </h2>
+            </div>
+          </div>
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <span class="h5 fw-lighter">01.</span>
+              <h3 class="py-4 border-top border-dark">
+                Stress Relief: Find Inner Peace and Calm
+              </h3>
+              <p>
+                Experience a sanctuary from daily pressures. Yoga's mindful
+                movement, deep breathing, and meditation techniques release
+                tension, lower cortisol, and promote tranquility, nurturing a
+                serene state of mind.
+              </p>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4 py-vh-4 pb-0"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <span class="h5 fw-lighter">02.</span>
+              <h3 class="py-4 border-top border-dark">
+                Increased Flexibility: Unlock Your Body's Potential
+              </h3>
+              <p>
+                Embrace newfound freedom as yoga gradually lengthens and
+                strengthens muscles, tendons, and ligaments. Enhance range of
+                motion, improve posture, and prevent injuries through regular
+                practice.
+              </p>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4 py-vh-6 pb-0"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <span class="h5 fw-lighter">03.</span>
+              <h3 class="py-4 border-top border-dark">
+                Enhanced Mind-Body Connection: Nourish Your Soul
+              </h3>
+              <p>
+                Ignite self-awareness and self-compassion through yoga's focus
+                on breath and bodily sensations. Deepen your understanding of
+                holistic well-being, fostering harmony between mind, body, and
+                spirit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+        <div class="container">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-6">
+              <div class="row gx-5 d-flex">
+                <div class="col-md-11">
+                  <div
+                    class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end"
+                    data-aos="fade-right"
+                    style="
+                      background-image: url(img/webp/people15.webp);
+                      --bs-aspect-ratio: 50%;
+                    "
+                  ></div>
+                </div>
+                <div class="col-md-5 offset-md-1">
+                  <div
+                    class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end"
+                    data-aos="fade-up"
+                    style="background-image: url(img/webp/interior42.webp)"
+                  ></div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="col-12 shadow ratio rounded bg-cover mt-5 bp-center"
+                    data-aos="fade-left"
+                    style="
+                      background-image: url(img/webp/people-4.jpg);
+                      --bs-aspect-ratio: 150%;
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="py-4 border-top border-dark" data-aos="fade-left">
+                Did you know, that on average we're having anywhere from 50,000
+                to 70,000 thoughts per day?
+              </h3>
+              <p data-aos="fade-left" data-aos-delay="200">
+                Many of those thoughts are happiness and joy, but there's also a
+                lot of stress and other negative thoughs, because of our daily
+                lives and the way we live them. This is where yoga comes in.
+                With yoga you can release all of your negative energy and
+                continue your day with a fresh mind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+        <div class="container">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-5">
+              <h3 class="py-5 border-top border-dark" data-aos="fade-right">
+                Some of the greatest benefits
+              </h3>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="display-6 mb-5" data-aos="fade-down">
+                    We just love to talk about yoga, so here are some more
+                    benefits.
+                  </h2>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                  <div class="display-1 fw-bold py-4">+45%</div>
+                  <p class="text-black-100 fs-6">
+                    <b>Stress Reduction:</b> Studies show that practicing yoga
+                    for just 20 minutes a day can significantly reduce stress
+                    levels and decrease anxiety by up to 30%.
+                  </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                  <div class="display-1 fw-bold py-4">+30%</div>
+                  <p class="text-black-100 fs-6">
+                    <b>Strength and Muscle Tone:</b> Yoga poses and sequences
+                    engage various muscle groups, leading to improved strength
+                    and muscle tone. Practitioners can experience a 20% increase
+                    in muscle strength after consistent yoga practice.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-vh-4 w-100 overflow-hidden">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-5">
+            <h3 class="py-5 border-top border-dark" data-aos="fade-right">
+              The absolute best benefit in our opinion
+            </h3>
+          </div>
+          <div class="col-md-7" data-aos="fade-left">
+            <blockquote>
+              <div class="fs-4 my-2 fw-light border-bottom pb-3">
+                Yoga promotes a profound connection between the mind and body,
+                leading to enhanced self-awareness and self-acceptance. Through
+                mindful movement, breath awareness, and meditation, yoga
+                cultivates a deep understanding of one's physical sensations,
+                thoughts, and emotions. This heightened awareness fosters a
+                positive body image, increased self-confidence, and an overall
+                sense of well-being, empowering individuals to embrace their
+                true selves with love and acceptance.
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="py-vh-4 bg-gray-900 text-light w-100 overflow-hidden"
+        id="workwithus"
+      >
+        <div
+          class="container p-4 w-60 d-flex justify-content-center product-container"
+        >
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="./img/webp/e-book-cover.png"
+                alt="Absolute Yoga Cover Image"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="pt-2">Absolute Yoga</h2>
+              <p>
+                Discover the joy of yoga and best practices for getting the most
+                fulfilling experience. Made from high-quality materials, it
+                provides excellent grip and cushioning for a comfortable
+                practice. Whether you're a beginner or an experienced yogi, this
+                mat will support you in your journey.
+              </p>
+              <h4 class="pt-3">In this package you're getting:</h4>
+              <ul>
+                <li>E-Book</li>
+                <li>Checklist</li>
+                <li>Mindmap</li>
+              </ul>
+              <div class="price-row d-flex flex-row">
+                <p class="pt-5 px-2 striked">$9.99</p>
+                <h3 class="price pt-5">$4.99</h3>
+              </div>
+              <button class="btn btn-primary bg-success border-0 w-100 p-2">
+                Buy it now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-light w-100 overflow-hidden" id="testimonials">
+        <div class="container py-vh-6">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-8 text-center">
+              <h2 class="display-6">Loved by people all around the globe</h2>
+              <p class="lead">
+                With its enlightening content, expert guidance, and stunning
+                illustrations, readers fall in love, diving deeper into their
+                practice and embracing yoga's transformative power.
+              </p>
+            </div>
+            <div class="col-12 mt-4">
+              <div
+                class="row row-cols-1 row-cols-md-2 g-5 d-flex align-items-center"
+              >
+                <div class="col-12 col-lg-6 col-xl-4" data-aos="fade-right">
+                  <div class="card p-4 mt-3 border-0">
+                    <div class="card-body">
+                      <div class="text-dark py-2 fs-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-half"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"
+                          />
+                        </svg>
+                      </div>
+                      <blockquote class="blockquote">
+                        <p>
+                          "I'm blown away by this yoga book! The wisdom it
+                          imparts and the stunning visuals truly elevate my yoga
+                          journey. It's a treasure trove of inspiration and
+                          knowledge."
+                        </p>
+                      </blockquote>
+                      <div
+                        class="d-flex justify-content-between border-top pt-3"
+                      >
+                        <div>
+                          <span class="h6 fw-5">Jane Doemunsky</span><br />
+                        </div>
+                        <img
+                          src="img/webp/person9.webp"
+                          width="48"
+                          height="48"
+                          class="rounded-circle"
+                          alt=""
+                          data-aos="fade"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-4">
+                  <div
+                    class="card p-4 shadow mt-3 border-0"
+                    data-aos="fade-down"
+                  >
+                    <div class="card-body">
+                      <div class="text-dark py-2 fs-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                      </div>
+                      <blockquote class="blockquote">
+                        <p>
+                          "A must-read for all yoga enthusiasts! This book
+                          beautifully captures the essence of yoga, offering
+                          profound insights and practical guidance. It's my
+                          go-to resource for deepening my practice."
+                        </p>
+                      </blockquote>
+                      <div
+                        class="d-flex justify-content-between border-top pt-3"
+                      >
+                        <p class="card-text">
+                          <span class="h6 fw-5">Jenny Matrix</span><br />
+                        </p>
+                        <img
+                          src="img/webp/person3.webp"
+                          width="48"
+                          height="48"
+                          class="rounded-circle"
+                          alt=""
+                          data-aos="fade"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-4">
+                  <div class="card p-4 mt-3 border-0" data-aos="fade-left">
+                    <div class="card-body">
+                      <div class="text-dark py-2 fs-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                          />
+                        </svg>
+                      </div>
+                      <blockquote class="blockquote">
+                        <p>
+                          "An exceptional yoga book that resonates deeply. Its
+                          clarity and authenticity make it a valuable companion
+                          for both beginners and seasoned yogis. Highly
+                          recommended!"
+                        </p>
+                      </blockquote>
+                      <div
+                        class="d-flex justify-content-between border-top pt-3"
+                      >
+                        <p class="card-text">
+                          <span class="h6 fw-5">Rustin Cohle</span><br />
+                        </p>
+                        <img
+                          src="img/webp/person8.webp"
+                          width="48"
+                          height="48"
+                          class="rounded-circle"
+                          alt=""
+                          data-aos="fade"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-4">
+                  <div class="card p-4 mt-3 border-0" data-aos="fade-right">
+                    <div class="card-body">
+                      <div class="text-dark py-2 fs-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                      </div>
+                      <blockquote class="blockquote">
+                        <p>
+                          "This book is a game-changer! The author's expertise
+                          shines through, making complex concepts accessible.
+                          It's a source of inspiration and motivation, igniting
+                          a profound connection to yoga."
+                        </p>
+                      </blockquote>
+                      <div
+                        class="d-flex justify-content-between border-top pt-3"
+                      >
+                        <p class="card-text">
+                          <span class="h6 fw-5">Richard Thornburg</span><br />
+                        </p>
+                        <img
+                          src="img/webp/person14.webp"
+                          width="48"
+                          height="48"
+                          class="rounded-circle"
+                          alt=""
+                          data-aos="fade"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-4">
+                  <div class="card p-4 mt-3 border-0" data-aos="fade-up">
+                    <div class="card-body">
+                      <div class="text-dark py-2 fs-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-half"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"
+                          />
+                        </svg>
+                      </div>
+                      <blockquote class="blockquote">
+                        <p>
+                          "A gem among yoga books! It combines spiritual wisdom
+                          with practical techniques, empowering readers to
+                          cultivate mindfulness, strength, and balance. A true
+                          gift for any yoga enthusiast."
+                        </p>
+                      </blockquote>
+                      <div
+                        class="d-flex justify-content-between border-top pt-3"
+                      >
+                        <p class="card-text">
+                          <span class="h6 fw-5">Harry Walters</span><br />
+                        </p>
+                        <img
+                          src="img/webp/person13.webp"
+                          width="48"
+                          height="48"
+                          class="rounded-circle"
+                          alt=""
+                          data-aos="fade"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-4">
+                  <div
+                    class="card p-4 shadow mt-3 border-0"
+                    data-aos="fade-left"
+                  >
+                    <div class="card-body">
+                      <div class="text-dark py-2 fs-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                      </div>
+                      <blockquote class="blockquote">
+                        <p>
+                          "This book exceeded my expectations! The captivating
+                          content and beautiful illustrations make it a joy to
+                          read. It has deepened my practice and brought a sense
+                          of tranquility into my life."
+                        </p>
+                      </blockquote>
+                      <div
+                        class="d-flex justify-content-between border-top pt-3"
+                      >
+                        <p class="card-text">
+                          <span class="h6 fw-5">Lizzie Stark</span><br />
+                        </p>
+                        <img
+                          src="img/webp/person18.webp"
+                          width="48"
+                          height="48"
+                          class="rounded-circle"
+                          alt=""
+                          data-aos="fade"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="small py-vh-3 w-100 overflow-hidden">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 border-end" data-aos="fade-up">
+              <div class="d-flex">
+                <div class="col-md-3 flex-fill pt-3 pe-3 pe-md-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="currentColor"
+                    class="bi bi-box-seam"
+                    viewbox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"
+                    />
+                  </svg>
+                </div>
+                <div class="col-md-9 flex-fill">
+                  <h3 class="h5 my-2">Delivery Service</h3>
+                  <p>
+                    You're going to be able to access your e-book immediately
+                    after purchase. All orders are done automatically, so
+                    there's no need to worry about delayed arrivals.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 border-end"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="d-flex">
+                <div class="col-md-3 flex-fill pt-3 pt-3 pe-3 pe-md-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="currentColor"
+                    class="bi bi-card-checklist"
+                    viewbox="0 0 16 16"
+                  >
+                    <path
+                      d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
+                    />
+                    <path
+                      d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                </div>
+                <div class="col-md-9 flex-fill">
+                  <h3 class="h5 my-2">Independently Checked</h3>
+                  <p>
+                    Maybe we would do something to ensure that you get what you
+                    ordered. But you can´t order anything here, so we can give
+                    you a 100% gurantee that anything would be great!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="d-flex">
+                <div class="col-md-3 flex-fill pt-3 pt-3 pe-3 pe-md-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="42"
+                    fill="currentColor"
+                    class="bi bi-window-sidebar"
+                    viewbox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"
+                    />
+                    <path
+                      d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z"
+                    />
+                  </svg>
+                </div>
+                <div class="col-md-9 flex-fill">
+                  <h3 class="h5 my-2">Online Support</h3>
+                  <p>
+                    You can always reach out to us at
+                    <a href="omyogahub.shop@gmail.com"
+                      >omyogahub.shop@gmail.com</a
+                    >
+                    and submit your feedback there.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container py-vh-3 border-top"
+        data-aos="fade"
+        data-aos-delay="200"
+      >
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-8 text-center">
+            <h3 class="fs-2 fw-light">
+              Stay In Touch With our<span class="fw-bold">
+                Monthly and FREE</span
+              >
+              Newsletter!
+            </h3>
+          </div>
+          <div class="col-12 col-lg-8 text-center">
+            <div class="row">
+              <div class="grouped-inputs border bg-light p-2">
+                <div class="row">
+                  <div class="col">
+                    <form class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control p-3"
+                        id="floatingInput"
+                        placeholder="name@example.com"
+                      />
+                      <label for="floatingInput">Email address</label>
+                    </form>
+                  </div>
+                  <div class="col-auto">
+                    <a href="#" class="btn btn-dark py-3 px-5">Subscribe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="justify-content-center">
+      <p class="text-center px-5 d-flex">
+        ClickBank is the retailer of products on this site. CLICKBANK® is a
+        registered trademark of Click Sales Inc., a Delaware corporation located
+        at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used
+        by permission. ClickBank's role as retailer does not constitute an
+        endorsement, approval or review of these products or any claim,
+        statement or opinion used in promotion of these products.
+      </p>
+
+      <div class="container text-center py-3 small">
+        Made by
+        <a href="https://templatedeck.com" class="link-fancy" target="_blank"
+          >templatedeck.com</a
+        >
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 800, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+
+    <script>
+      let scrollpos = window.scrollY;
+      const header = document.querySelector(".navbar");
+      const header_height = header.offsetHeight;
+
+      const add_class_on_scroll = () =>
+        header.classList.add("scrolled", "shadow-sm");
+      const remove_class_on_scroll = () =>
+        header.classList.remove("scrolled", "shadow-sm");
+
+      window.addEventListener("scroll", function () {
+        scrollpos = window.scrollY;
+
+        if (scrollpos >= header_height) {
+          add_class_on_scroll();
+        } else {
+          remove_class_on_scroll();
+        }
+
+        console.log(scrollpos);
+      });
+    </script>
+  </body>
+</html>
