@@ -13,21 +13,21 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="img/apple-touch-icon.png"
+      href="img/logo-title.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="img/favicon-32x32.png"
+      href="img/logo-title.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="img/favicon-16x16.png"
+      href="./img/logo-title.png"
     />
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/logo-color.png" />
     <meta name="author" content="Holger Koenemann" />
     <meta name="generator" content="Eleventy v2.0.0" />
     <meta name="HandheldFriendly" content="true" />
@@ -46,6 +46,15 @@
         justify-content: center;
       }
 
+      .book-image {
+        height: auto;
+      }
+
+      .product-info {
+        width: 40%;
+        margin-left: 20px;
+      }
+
       .credit-card-icons li {
         margin: 0 10px;
       }
@@ -57,6 +66,24 @@
 
         .credit-card-icons li {
           margin-bottom: 10px;
+        }
+
+        .product-container {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .product-container p {
+          width: 100%;
+        }
+
+        .product-info {
+          width: 100%;
+          margin: 0;
+        }
+        
+        .price-row {
+          width: min-content;
         }
       }
 
@@ -100,10 +127,10 @@
     >
       <div class="container">
         <a class="navbar-brand pe-4 fs-4" href="/">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+          <img
+            src="./img/logo-color.png"
+            width="50"
+            height="50"
             fill="currentColor"
             class="bi bi-layers-half"
             viewbox="0 0 16 16"
@@ -111,7 +138,7 @@
             <path
               d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"
             />
-          </svg>
+          </img>
           <span class="ms-1 fw-bolder">OMYogaHub</span>
         </a>
 
@@ -169,7 +196,7 @@
               data-aos="fade-right"
             >
               <h1 class="display-1 fw-bold mt-5">
-                Be Energized And Healthy With Yoga
+                Become Energized And Healthy With Yoga
               </h1>
               <p class="lead">
                 Many don't even realize how big of an improvement can yoga be in
@@ -370,24 +397,21 @@
         class="py-vh-4 bg-gray-900 text-light w-100 overflow-hidden"
         id="workwithus"
       >
-        <div
-          class="container p-4 w-60 d-flex justify-content-center product-container"
-        >
-          <div class="row">
-            <div class="col-md-6">
+        <div class="container p-4 w-100 d-flex flex-row justify-content-center">
+          <div class="d-flex flex-row justify-content-center product-container">
+            <div class="">
               <img
+                class="book-image"
                 src="./img/webp/e-book-cover.png"
                 alt="Absolute Yoga Cover Image"
               />
             </div>
-            <div class="col-md-6">
-              <h2 class="pt-2">Absolute Yoga</h2>
-              <p>
-                Discover the joy of yoga and best practices for getting the most
-                fulfilling experience. Made from high-quality materials, it
-                provides excellent grip and cushioning for a comfortable
-                practice. Whether you're a beginner or an experienced yogi, this
-                mat will support you in your journey.
+            <div class="product-info">
+              <h2 class="pt-1 fs-1">Absolute Yoga</h2>
+              <p class="fs-5">
+                Whether you are a beginner or an experienced yogi, "Absolute Yoga" provides step-by-step instructions and detailed explanations of various yoga postures (asanas), breathing techniques (pranayama), and meditation practices. It covers a wide range of yoga styles, including Hatha, Vinyasa, Ashtanga, and Restorative, allowing you to explore and find the style that resonates with you the most.
+
+
               </p>
               <h4 class="pt-3">In this package you're getting:</h4>
               <ul>
@@ -396,10 +420,12 @@
                 <li>Mindmap</li>
               </ul>
               <div class="price-row d-flex flex-row">
-                <p class="pt-5 px-2 striked">$9.99</p>
-                <h3 class="price pt-5">$4.99</h3>
+                <p class="pt-4 striked">$9.99<h3 class="price pt-4 px-1">$4.99</h3></p>
+                
               </div>
-              <button class="btn btn-primary bg-success border-0 w-100 p-2">
+              <button
+                class="btn btn-primary bg-success border-0 w-100 p-2 fs-5"
+              >
                 Buy it now
               </button>
             </div>
@@ -1061,9 +1087,7 @@
                 <div class="col-md-9 flex-fill">
                   <h3 class="h5 my-2">Independently Checked</h3>
                   <p>
-                    Maybe we would do something to ensure that you get what you
-                    ordered. But you can´t order anything here, so we can give
-                    you a 100% gurantee that anything would be great!
+                    Even though all of our orders are fulfilled automatically, we still check if they have been successful, to provide maximum reliability to our customers.
                   </p>
                 </div>
               </div>
