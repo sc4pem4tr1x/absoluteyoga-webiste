@@ -135,6 +135,21 @@
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=787852872847765&ev=PageView&noscript=1"
   /></noscript>
+
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '787852872847765',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v17.0'
+      });
+    };
+  </script>
+<script>
+fbq('track', 'AddToCart');
+</script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   <!-- End Meta Pixel Code -->
 
   <body data-bs-spy="scroll" data-bs-target="#navScroll">
@@ -1215,20 +1230,7 @@
     </footer>
 
 
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId            : '787852872847765',
-          autoLogAppEvents : true,
-          xfbml            : true,
-          version          : 'v17.0'
-        });
-      };
-    </script>
-<script>
-  fbq('track', 'AddToCart');
-</script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHZXLFLCEL"></script>
