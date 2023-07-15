@@ -147,7 +147,10 @@
     };
   </script>
 <script>
-fbq('track', 'AddToCart');
+  document.getElementById("buybtn").onclick(function() {
+    fbq('track', 'AddToCart');
+  })
+
 </script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   <!-- End Meta Pixel Code -->
